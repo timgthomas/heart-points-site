@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 40.0rem;
+  padding-top: 2.0rem;
+  width: 100%;
+}
+
+h1 {
+  color: #4a148c;
+  font-size: 2.0rem;
+  padding-bottom: 2.0rem;
+  text-align: center;
+}
+
+p,
+ul {
+  font-size: 1.6rem;
+  line-height: 1.618;
+  margin-bottom: 2.0rem;
+}
+
+ul {
+  padding-left: 2.0rem;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+a {
+  color: #b71c1c;
+}
